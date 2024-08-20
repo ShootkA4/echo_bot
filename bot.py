@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters.command import Command
 from aiogram.types import Message
 logging.basicConfig(level=logging.INFO)
-token_bot="7533396258:AAFSVT5bFhM13xy_2FAAtTa-TDXGnxbHokc"
+token_bot=""
 
 async def echo(message: Message):
     await message.answer(message.text)
